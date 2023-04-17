@@ -1,12 +1,17 @@
+import Canvas from "./canvas"
+import Customizer from "./pages/Customizer"
+import Home from "./pages/Home"
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
-    <h1 className="head-text">Nonso App</h1>
-    </div>
+    <main className="app transition-all">
+<Home />
+<Canvas />
+<Customizer />
+    </main>
   )
 }
 
 export default App
+ 
